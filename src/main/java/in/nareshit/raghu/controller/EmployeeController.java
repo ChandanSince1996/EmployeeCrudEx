@@ -33,5 +33,10 @@ public class EmployeeController {
 	 * Return back to EmployeeRegister.html
 	 */
 	
+	@GetMapping("/view")
+	public String showView() {
+		return "Data";
+	}
+	
 
 }
